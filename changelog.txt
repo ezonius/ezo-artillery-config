@@ -1,6 +1,7 @@
 ﻿---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 2024-12-01
-  Changes:
-    - First change
+Date: 2026-10-15
+  Features:
+    - Startup settings to scale range, cooldown, rotation speed, damage, splash radius, and minimum range for
+      all artillery turrets and wagons, including modded prototypes.
 ---------------------------------------------------------------------------------------------------

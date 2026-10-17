@@ -1,5 +1,3 @@
-/.luarc.json
 /.idea/
-/.gitattributes*
-/.github/workflows
-.pi-tasks
+/.vscode/
+/.pi-tasks/

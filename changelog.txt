@@ -1,4 +1,13 @@
 ﻿---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-10-20
+  Bugfixes:
+    - The shell damage and splash radius multipliers were never applied to vanilla artillery shells. The projectile
+      reference lookup only checked data.raw["projectile"], but artillery shells use the dedicated prototype type
+      "artillery-projectile" (data.raw["artillery-projectile"]) and were silently skipped. The walk now checks both
+      prototype types, follows ammo items matching the gun's ammo_category (vanilla artillery guns define no
+      ammo_type of their own), recurses into nested-result/area actions, and scales area action radii.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-10-15
   Features:
